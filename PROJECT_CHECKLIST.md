@@ -105,5 +105,5 @@
 
 ### Phase 12: Documentation & Git
 - [x] README.md: setup steps, how to run locally, API endpoint list
-- [ ] Confirm Git history has clear, incremental commits (not one giant commit)
+- [x] Confirm Git history has clear, incremental commits (not one giant commit)
 - [ ] Final push to main branch
