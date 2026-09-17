@@ -22,3 +22,10 @@ Thumbs.db
 *.swp
 
 .azure-deploy/
+
+# Internal / local-only (not for submission)
+.cursor/
+cursorrules
+PROJECT_CHECKLIST.md
+TECHNICAL_FLOW.md
+.azure-deploy/
