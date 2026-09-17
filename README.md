@@ -18,7 +18,7 @@ Resource group: `siteops-rg` · Region: `centralindia` (SWA in `eastasia`)
 
 These were added to make day-to-day ops easier when data grows:
 
-1. **Debounced site search** — typing in the Sites search box waits ~1 second before calling the API, so every keystroke does not trigger a request.
+1. **Debounced site search** — typing in the Sites search box waits ~0.5 second before calling the API, so every keystroke does not trigger a request.
 2. **Excel import / export (XLSX)** — bulk load sites and installations from a spreadsheet instead of entering rows one by one. Export downloads the current filtered set (not just the current page). Import **upserts**: matching rows are updated; new rows are inserted (sites matched by name; installations linked to sites).
 3. **Pagination** — Sites and Installations lists are paged (max 20 per page) on both API and UI so large datasets stay usable.
 4. **Dashboard click-through links** — summary card totals and status breakdown counts link through to the matching Sites / Installations list with the right filter applied.
